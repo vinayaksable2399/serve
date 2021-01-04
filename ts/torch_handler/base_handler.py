@@ -9,7 +9,7 @@ import importlib.util
 import time
 import torch
 
-from ..utils.util import list_classes_from_module, load_label_mapping
+from util import list_classes_from_module, load_label_mapping
 
 logger = logging.getLogger(__name__)
 
