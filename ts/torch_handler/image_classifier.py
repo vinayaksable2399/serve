@@ -5,8 +5,8 @@ import torch
 import torch.nn.functional as F
 from torchvision import transforms
 
-from .vision_handler import VisionHandler
-from ..utils.util  import map_class_to_label
+from vision_handler import VisionHandler
+from util  import map_class_to_label
 
 
 class ImageClassifier(VisionHandler):
